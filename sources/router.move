@@ -1,11 +1,12 @@
-module dexlyn::router {
+module dexlyn::scripts {
     use std::signer;
     use supra_framework::coin;
 
-    #[view]
-    public fun get_amount_out<CoinIn, CoinOut, Curve>(
+    public entry fun swap<CoinA, CoinB, Curve>(
+        user: &signer,
         amount_in: u64,
-    ): u64 {
+        min_out: u64
+    ) {
         abort 0
     }
 }
