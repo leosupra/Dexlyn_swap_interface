@@ -5,7 +5,7 @@ module atmos_aggregator::atmos_agg_swap {
 
 
     public entry swap<CoinA, CoinB, curve>(
-      user: &signer,
+        user: &signer,
         amount_in: u64,
         min_out: u64
     ) {
