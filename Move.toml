@@ -1,7 +1,7 @@
 [package]
-name = "Dexlyn"
-version = "1.0.0"
-authors = ["dexlyn"]
+name = "dexlyn_swap"
+version = "0.0.1"
+authors = ["compatible"]
 
 [addresses]
 dexlyn = "0xdc694898dff98a1b0447e0992d0413e123ea80da1021d464a4fbaf0265870d8"
